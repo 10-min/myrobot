@@ -1,0 +1,7 @@
+string place
+
+---
+
+geometry_msgs/PoseStamped goal
+
+---

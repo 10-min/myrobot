@@ -1,0 +1,234 @@
+<?xml version="1.0"?>
+<sdf version="1.10">
+    <world name="hospital_world">
+        <physics name="1ms" type="ignored">
+            <max_step_size>0.001</max_step_size>
+            <real_time_factor>1.0</real_time_factor>
+        </physics>
+        <plugin
+            filename="gz-sim-physics-system"
+            name="gz::sim::systems::Physics">
+        </plugin>
+        <plugin
+            filename="gz-sim-user-commands-system"
+            name="gz::sim::systems::UserCommands">
+        </plugin>
+        <plugin
+            filename="gz-sim-scene-broadcaster-system"
+            name="gz::sim::systems::SceneBroadcaster">
+        </plugin>
+
+        <light type="directional" name="sun">
+            <cast_shadows>true</cast_shadows>
+            <pose>0 0 10 0 0 0</pose>
+            <diffuse>0.9 0.9 0.9 1</diffuse>
+            <specular>0 0 0 1</specular>
+            <attenuation>
+                <range>1000</range>
+                <constant>0.9</constant>
+                <linear>0.01</linear>
+                <quadratic>0.001</quadratic>
+            </attenuation>
+            <direction>-0.5 0.1 -0.9</direction>
+        </light>
+        <plugin filename="gz-sim-imu-system"
+            name="gz::sim::systems::Imu">
+        </plugin>
+        <plugin
+            filename="gz-sim-sensors-system"
+            name="gz::sim::systems::Sensors">
+            <render_engine>ogre2</render_engine>
+        </plugin>
+        <model name="ground_plane">
+            <static>true</static>
+            <link name="link">
+                <collision name="collision">
+                    <geometry>
+                        <plane>
+                            <normal>0 0 1</normal>
+                        </plane>
+                    </geometry>
+                </collision>
+                <visual name="visual">
+                    <geometry>
+                        <plane>
+                            <normal>0 0 1</normal>
+                            <size>100 100</size>
+                        </plane>
+                    </geometry>
+                    <material>
+                        <ambient>0.8 0.8 0.8 1</ambient>
+                        <diffuse>0.8 0.8 0.8 1</diffuse>
+                        <specular>0.8 0.8 0.8 1</specular>
+                    </material>
+                </visual>
+            </link>
+        </model>
+        <!-- 바닥 -->
+        <model name="floor">
+            <static>true</static>
+            <link name="floor_link">
+                <collision name="collision">
+                    <geometry>
+                        <plane>
+                            <normal>0 0 1</normal>
+                            <size>20 20</size>
+                        </plane>
+                    </geometry>
+                    <surface>
+                        <contact />
+                        <bounce />
+                        <friction />
+                    </surface>
+                </collision>
+                <visual name="visual">
+                    <geometry>
+                        <plane>
+                            <normal>0 0 1</normal>
+                            <size>20 20</size>
+                        </plane>
+                    </geometry>
+                    <material>
+                        <ambient>1.0 1.0 1.0 1</ambient>
+                        <diffuse>1.0 1.0 1.0 1</diffuse>
+                        <specular>1.0 1.0 1.0 1</specular>
+                    </material>
+                </visual>
+            </link>
+        </model>
+
+        <!-- 복도 벽 (긴 직사각형) -->
+        <model name="hall_wall_left">
+            <static>true</static>
+            <link name="link">
+                <collision name="collision">
+                    <geometry>
+                        <box>
+                            <size>0.2 10 2.5</size>
+                        </box>
+                    </geometry>
+                </collision>
+                <visual name="visual">
+                    <geometry>
+                        <box>
+                            <size>0.2 10 2.5</size>
+                        </box>
+                    </geometry>
+                    <material>
+                        <ambient>1.0 1.0 1.0 1</ambient>
+                        <diffuse>1.0 1.0 1.0 1</diffuse>
+                        <specular>1.0 1.0 1.0 1</specular>
+                    </material>
+                </visual>
+                <pose>-2.5 0 1.25 0 0 0</pose>
+            </link>
+        </model>
+
+        <model name="hall_wall_right">
+            <static>true</static>
+            <link name="link">
+                <collision name="collision">
+                    <geometry>
+                        <box>
+                            <size>0.2 10 2.5</size>
+                        </box>
+                    </geometry>
+                </collision>
+                <visual name="visual">
+                    <geometry>
+                        <box>
+                            <size>0.2 10 2.5</size>
+                        </box>
+                    </geometry>
+                    <material>
+                        <ambient>1.0 1.0 1.0 1</ambient>
+                        <diffuse>1.0 1.0 1.0 1</diffuse>
+                        <specular>1.0 1.0 1.0 1</specular>
+                    </material>
+                </visual>
+                <pose>2.5 0 1.25 0 0 0</pose>
+            </link>
+        </model>
+
+        <!-- 병실 문 (중간에 구멍 느낌) -->
+        <model name="room_wall1">
+            <static>true</static>
+            <link name="link">
+                <collision name="collision">
+                    <geometry>
+                        <box>
+                            <size>5 0.2 2.5</size>
+                        </box>
+                    </geometry>
+                </collision>
+                <visual name="visual">
+                    <geometry>
+                        <box>
+                            <size>5 0.2 2.5</size>
+                        </box>
+                    </geometry>
+                    <material>
+                        <ambient>1.0 1.0 1.0 1</ambient>
+                        <diffuse>1.0 1.0 1.0 1</diffuse>
+                        <specular>1.0 1.0 1.0 1</specular>
+                    </material>
+                </visual>
+                <pose>0 5 1.25 0 0 0</pose>
+            </link>
+        </model>
+        <model name="room_wall2">
+            <static>true</static>
+            <link name="link">
+                <collision name="collision">
+                    <geometry>
+                        <box>
+                            <size>5 0.2 2.5</size>
+                        </box>
+                    </geometry>
+                </collision>
+                <visual name="visual">
+                    <geometry>
+                        <box>
+                            <size>5 0.2 2.5</size>
+                        </box>
+                    </geometry>
+                    <material>
+                        <ambient>1.0 1.0 1.0 1</ambient>
+                        <diffuse>1.0 1.0 1.0 1</diffuse>
+                        <specular>1.0 1.0 1.0 1</specular>
+                    </material>
+                </visual>
+                <pose>0 -5 1.25 0 0 0</pose>
+            </link>
+        </model>
+        <model name="waiting_area_wall">
+            <static>true</static>
+            <link name="link">
+                <collision name="collision">
+                    <geometry>
+                        <box>
+                            <size>1.2 0.2 2.5</size>
+                        </box>
+                    </geometry>
+                </collision>
+                <visual name="visual">
+                    <geometry>
+                        <box>
+                            <size>1.2 0.2 2.5</size>
+                        </box>
+                    </geometry>
+                    <material>
+                        <ambient>1 1 1 1</ambient>
+                        <diffuse>1 1 1 1</diffuse>
+                    </material>
+                </visual>
+                <pose>0 2.5 1.25 0 0 0</pose>
+            </link>
+        </model>
+        <!-- <include>
+            <uri>file:///home/tm/dev_ws/test/myrobot/src/myrobot/models/robot/model.sdf</uri>
+            <pose>0 0 0 0 0 0</pose>
+        </include> -->
+    </world>
+
+</sdf>
