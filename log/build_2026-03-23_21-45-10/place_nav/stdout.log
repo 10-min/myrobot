@@ -1,0 +1,9 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/map_creator.dir/src/map_creator.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/place_navigation.dir/src/place_navigation.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/clean_server.dir/src/clean_server.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable map_creator[0m
+[ 66%] Built target map_creator
+[ 83%] [32m[1mLinking CXX executable clean_server[0m
+[ 83%] Built target clean_server
+[100%] [32m[1mLinking CXX executable place_navigation[0m
+[100%] Built target place_navigation

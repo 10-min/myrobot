@@ -1,0 +1,13 @@
+---
+
+uint16 cleaned_room
+uint8 result
+
+# result
+uint8 SUCCESS = 0
+uint8 NO_CLEAN_ROOM = 1
+uint8 ABORTED = 2
+
+---
+
+uint16 remain_room

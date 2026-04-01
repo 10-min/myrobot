@@ -1,0 +1,28 @@
+[  0%] Built target main_autogen_timestamp_deps
+[ 11%] Built target main_autogen
+[100%] Built target main
+-- Install configuration: ""
+-- Up-to-date: /home/tm/git_ws/myrobot/install/user_gui/share/user_gui//qml
+-- Up-to-date: /home/tm/git_ws/myrobot/install/user_gui/share/user_gui//qml/MyMap.qml
+-- Up-to-date: /home/tm/git_ws/myrobot/install/user_gui/share/user_gui//qml/hospital.pgm
+-- Up-to-date: /home/tm/git_ws/myrobot/install/user_gui/share/user_gui//qml/main.qml
+-- Up-to-date: /home/tm/git_ws/myrobot/install/user_gui/share/user_gui//qml/hospital.yaml
+-- Up-to-date: /home/tm/git_ws/myrobot/install/user_gui/share/user_gui//map
+-- Up-to-date: /home/tm/git_ws/myrobot/install/user_gui/share/user_gui//map/hospital.pgm
+-- Up-to-date: /home/tm/git_ws/myrobot/install/user_gui/share/user_gui//map/hospital.yaml
+-- Up-to-date: /home/tm/git_ws/myrobot/install/user_gui/lib/user_gui/main
+-- Up-to-date: /home/tm/git_ws/myrobot/install/user_gui/share/ament_index/resource_index/package_run_dependencies/user_gui
+-- Up-to-date: /home/tm/git_ws/myrobot/install/user_gui/share/ament_index/resource_index/parent_prefix_path/user_gui
+-- Up-to-date: /home/tm/git_ws/myrobot/install/user_gui/share/user_gui/environment/ament_prefix_path.sh
+-- Up-to-date: /home/tm/git_ws/myrobot/install/user_gui/share/user_gui/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/tm/git_ws/myrobot/install/user_gui/share/user_gui/environment/path.sh
+-- Up-to-date: /home/tm/git_ws/myrobot/install/user_gui/share/user_gui/environment/path.dsv
+-- Up-to-date: /home/tm/git_ws/myrobot/install/user_gui/share/user_gui/local_setup.bash
+-- Up-to-date: /home/tm/git_ws/myrobot/install/user_gui/share/user_gui/local_setup.sh
+-- Up-to-date: /home/tm/git_ws/myrobot/install/user_gui/share/user_gui/local_setup.zsh
+-- Up-to-date: /home/tm/git_ws/myrobot/install/user_gui/share/user_gui/local_setup.dsv
+-- Installing: /home/tm/git_ws/myrobot/install/user_gui/share/user_gui/package.dsv
+-- Up-to-date: /home/tm/git_ws/myrobot/install/user_gui/share/ament_index/resource_index/packages/user_gui
+-- Up-to-date: /home/tm/git_ws/myrobot/install/user_gui/share/user_gui/cmake/user_guiConfig.cmake
+-- Up-to-date: /home/tm/git_ws/myrobot/install/user_gui/share/user_gui/cmake/user_guiConfig-version.cmake
+-- Up-to-date: /home/tm/git_ws/myrobot/install/user_gui/share/user_gui/package.xml

@@ -30,9 +30,7 @@ install(
 
 include_directories(include)
 
-add_executable(place_navigation src/place_navigation.cpp)
-ament_target_dependencies(
-  place_navigation
+set(dependencies
   rclcpp 
   rclcpp_action 
   myrobot_interfaces
@@ -41,11 +39,31 @@ ament_target_dependencies(
   visualization_msgs 
   nav_msgs
   nav2_msgs
-  ament_index_cpp)
+  ament_index_cpp
+)
+
+add_executable(place_navigation src/place_navigation.cpp)
+ament_target_dependencies(place_navigation
+  ${dependencies}
+)
 target_link_libraries(place_navigation yaml-cpp ${OpenCV_LIBS})
+
+add_executable(map_creator src/map_creator.cpp)
+ament_target_dependencies(map_creator
+  ${dependencies}
+)
+target_link_libraries(map_creator ${OpenCV_LIBS})
+
+add_executable(clean_server src/clean_server.cpp)
+ament_target_dependencies(clean_server
+  ${dependencies}
+)
+target_link_libraries(clean_server ${OpenCV_LIBS})
 
 install(TARGETS
     place_navigation
+    map_creator
+    clean_server
   DESTINATION lib/${PROJECT_NAME})
 
 if(BUILD_TESTING)

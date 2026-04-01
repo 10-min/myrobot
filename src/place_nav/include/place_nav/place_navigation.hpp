@@ -1,3 +1,6 @@
+#ifndef PLACE_NAVIGATION_HPP_
+#define PLACE_NAVIGATION_HPP_
+
 #include "rclcpp/rclcpp.hpp"
 #include "rclcpp_action/rclcpp_action.hpp"
 #include "geometry_msgs/msg/pose_with_covariance_stamped.hpp"
@@ -57,3 +60,5 @@ public:
     PlaceNavigation();
     ~PlaceNavigation();
 };
+
+#endif

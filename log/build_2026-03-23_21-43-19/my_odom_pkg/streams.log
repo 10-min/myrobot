@@ -1,0 +1,40 @@
+[0.731s] Invoking command in '/home/tm/git_ws/myrobot/src/my_odom_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/tm/git_ws/myrobot/build/my_odom_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tm/git_ws/myrobot/install/my_odom_pkg/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_odom_pkg build --build-base /home/tm/git_ws/myrobot/build/my_odom_pkg/build install --record /home/tm/git_ws/myrobot/build/my_odom_pkg/install.log --single-version-externally-managed install_data
+[0.980s] running egg_info
+[0.981s] creating ../../build/my_odom_pkg/my_odom_pkg.egg-info
+[0.997s] writing ../../build/my_odom_pkg/my_odom_pkg.egg-info/PKG-INFO
+[0.997s] writing dependency_links to ../../build/my_odom_pkg/my_odom_pkg.egg-info/dependency_links.txt
+[0.997s] writing entry points to ../../build/my_odom_pkg/my_odom_pkg.egg-info/entry_points.txt
+[0.997s] writing requirements to ../../build/my_odom_pkg/my_odom_pkg.egg-info/requires.txt
+[0.998s] writing top-level names to ../../build/my_odom_pkg/my_odom_pkg.egg-info/top_level.txt
+[0.998s] writing manifest file '../../build/my_odom_pkg/my_odom_pkg.egg-info/SOURCES.txt'
+[1.031s] reading manifest file '../../build/my_odom_pkg/my_odom_pkg.egg-info/SOURCES.txt'
+[1.032s] writing manifest file '../../build/my_odom_pkg/my_odom_pkg.egg-info/SOURCES.txt'
+[1.032s] running build
+[1.032s] running build_py
+[1.032s] creating /home/tm/git_ws/myrobot/build/my_odom_pkg/build
+[1.032s] creating /home/tm/git_ws/myrobot/build/my_odom_pkg/build/lib
+[1.032s] creating /home/tm/git_ws/myrobot/build/my_odom_pkg/build/lib/my_odom_pkg
+[1.032s] copying my_odom_pkg/__init__.py -> /home/tm/git_ws/myrobot/build/my_odom_pkg/build/lib/my_odom_pkg
+[1.033s] copying my_odom_pkg/odom_echo_launch.py -> /home/tm/git_ws/myrobot/build/my_odom_pkg/build/lib/my_odom_pkg
+[1.033s] copying my_odom_pkg/odom_echo.py -> /home/tm/git_ws/myrobot/build/my_odom_pkg/build/lib/my_odom_pkg
+[1.033s] running install
+[1.038s] running install_lib
+[1.054s] creating /home/tm/git_ws/myrobot/install/my_odom_pkg/lib/python3.12/site-packages/my_odom_pkg
+[1.054s] copying /home/tm/git_ws/myrobot/build/my_odom_pkg/build/lib/my_odom_pkg/__init__.py -> /home/tm/git_ws/myrobot/install/my_odom_pkg/lib/python3.12/site-packages/my_odom_pkg
+[1.054s] copying /home/tm/git_ws/myrobot/build/my_odom_pkg/build/lib/my_odom_pkg/odom_echo_launch.py -> /home/tm/git_ws/myrobot/install/my_odom_pkg/lib/python3.12/site-packages/my_odom_pkg
+[1.054s] copying /home/tm/git_ws/myrobot/build/my_odom_pkg/build/lib/my_odom_pkg/odom_echo.py -> /home/tm/git_ws/myrobot/install/my_odom_pkg/lib/python3.12/site-packages/my_odom_pkg
+[1.054s] byte-compiling /home/tm/git_ws/myrobot/install/my_odom_pkg/lib/python3.12/site-packages/my_odom_pkg/__init__.py to __init__.cpython-312.pyc
+[1.054s] byte-compiling /home/tm/git_ws/myrobot/install/my_odom_pkg/lib/python3.12/site-packages/my_odom_pkg/odom_echo_launch.py to odom_echo_launch.cpython-312.pyc
+[1.055s] byte-compiling /home/tm/git_ws/myrobot/install/my_odom_pkg/lib/python3.12/site-packages/my_odom_pkg/odom_echo.py to odom_echo.cpython-312.pyc
+[1.055s] running install_data
+[1.055s] creating /home/tm/git_ws/myrobot/install/my_odom_pkg/share/ament_index
+[1.055s] creating /home/tm/git_ws/myrobot/install/my_odom_pkg/share/ament_index/resource_index
+[1.055s] creating /home/tm/git_ws/myrobot/install/my_odom_pkg/share/ament_index/resource_index/packages
+[1.055s] copying resource/my_odom_pkg -> /home/tm/git_ws/myrobot/install/my_odom_pkg/share/ament_index/resource_index/packages
+[1.055s] copying package.xml -> /home/tm/git_ws/myrobot/install/my_odom_pkg/share/my_odom_pkg
+[1.055s] running install_egg_info
+[1.073s] Copying ../../build/my_odom_pkg/my_odom_pkg.egg-info to /home/tm/git_ws/myrobot/install/my_odom_pkg/lib/python3.12/site-packages/my_odom_pkg-0.0.0-py3.12.egg-info
+[1.073s] running install_scripts
+[1.185s] Installing odom_echo script to /home/tm/git_ws/myrobot/install/my_odom_pkg/lib/my_odom_pkg
+[1.185s] writing list of installed files to '/home/tm/git_ws/myrobot/build/my_odom_pkg/install.log'
+[1.221s] Invoked command in '/home/tm/git_ws/myrobot/src/my_odom_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/tm/git_ws/myrobot/build/my_odom_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tm/git_ws/myrobot/install/my_odom_pkg/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_odom_pkg build --build-base /home/tm/git_ws/myrobot/build/my_odom_pkg/build install --record /home/tm/git_ws/myrobot/build/my_odom_pkg/install.log --single-version-externally-managed install_data

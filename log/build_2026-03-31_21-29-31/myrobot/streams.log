@@ -1,0 +1,55 @@
+[0.363s] Invoking command in '/home/tm/git_ws/myrobot/build/myrobot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tm/git_ws/myrobot/install/my_odom_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(ros) /usr/bin/cmake --build /home/tm/git_ws/myrobot/build/myrobot -- -j16 -l16
+[0.435s] Invoked command in '/home/tm/git_ws/myrobot/build/myrobot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tm/git_ws/myrobot/install/my_odom_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(ros) /usr/bin/cmake --build /home/tm/git_ws/myrobot/build/myrobot -- -j16 -l16
+[0.436s] Invoking command in '/home/tm/git_ws/myrobot/build/myrobot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tm/git_ws/myrobot/install/my_odom_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(ros) /usr/bin/cmake --install /home/tm/git_ws/myrobot/build/myrobot
+[0.449s] -- Install configuration: ""
+[0.449s] -- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot/share/myrobot//launch
+[0.449s] -- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot/share/myrobot//launch/spawn.launch.py
+[0.449s] -- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot/share/myrobot//launch/bridge.launch.py
+[0.449s] -- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot/share/myrobot//launch/display.launch.py
+[0.449s] -- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot/share/myrobot//launch/bringup.launch.py
+[0.449s] -- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot/share/myrobot//rviz
+[0.449s] -- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot/share/myrobot//rviz/config.rviz
+[0.449s] -- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot/share/myrobot//config
+[0.449s] -- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot/share/myrobot//config/bridge.yaml
+[0.450s] -- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot/share/myrobot//config/ekf.yaml
+[0.450s] -- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot/share/myrobot//worlds
+[0.450s] -- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot/share/myrobot//worlds/hospital.sdf
+[0.450s] -- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot/share/myrobot//worlds/test.sdf
+[0.450s] -- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot/share/myrobot//worlds/meshes
+[0.450s] -- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot/share/myrobot//worlds/meshes/hospital.dae
+[0.450s] -- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot/share/myrobot//worlds/meshes/hospital.glb
+[0.450s] -- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot/share/myrobot//urdf
+[0.450s] -- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot/share/myrobot//urdf/sam_bot_description.sdf
+[0.450s] -- Installing: /home/tm/git_ws/myrobot/install/myrobot/share/myrobot//urdf/myrobot.sdf
+[0.450s] -- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot/share/myrobot//urdf/myrobot.xacro.urdf
+[0.450s] -- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot/share/myrobot//rviz
+[0.450s] -- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot/share/myrobot//rviz/config.rviz
+[0.451s] -- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot/share/myrobot//config
+[0.451s] -- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot/share/myrobot//config/bridge.yaml
+[0.451s] -- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot/share/myrobot//config/ekf.yaml
+[0.451s] -- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot/share/myrobot//worlds
+[0.451s] -- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot/share/myrobot//worlds/hospital.sdf
+[0.451s] -- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot/share/myrobot//worlds/test.sdf
+[0.451s] -- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot/share/myrobot//worlds/meshes
+[0.451s] -- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot/share/myrobot//worlds/meshes/hospital.dae
+[0.451s] -- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot/share/myrobot//worlds/meshes/hospital.glb
+[0.451s] -- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot/share/myrobot//urdf
+[0.451s] -- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot/share/myrobot//urdf/sam_bot_description.sdf
+[0.451s] -- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot/share/myrobot//urdf/myrobot.sdf
+[0.451s] -- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot/share/myrobot//urdf/myrobot.xacro.urdf
+[0.451s] -- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot/share/ament_index/resource_index/package_run_dependencies/myrobot
+[0.451s] -- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot/share/ament_index/resource_index/parent_prefix_path/myrobot
+[0.451s] -- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot/share/myrobot/environment/ament_prefix_path.sh
+[0.452s] -- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot/share/myrobot/environment/ament_prefix_path.dsv
+[0.452s] -- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot/share/myrobot/environment/path.sh
+[0.452s] -- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot/share/myrobot/environment/path.dsv
+[0.452s] -- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot/share/myrobot/local_setup.bash
+[0.452s] -- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot/share/myrobot/local_setup.sh
+[0.452s] -- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot/share/myrobot/local_setup.zsh
+[0.452s] -- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot/share/myrobot/local_setup.dsv
+[0.452s] -- Installing: /home/tm/git_ws/myrobot/install/myrobot/share/myrobot/package.dsv
+[0.452s] -- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot/share/ament_index/resource_index/packages/myrobot
+[0.452s] -- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot/share/myrobot/cmake/myrobotConfig.cmake
+[0.452s] -- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot/share/myrobot/cmake/myrobotConfig-version.cmake
+[0.452s] -- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot/share/myrobot/package.xml
+[0.482s] Invoked command in '/home/tm/git_ws/myrobot/build/myrobot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tm/git_ws/myrobot/install/my_odom_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(ros) /usr/bin/cmake --install /home/tm/git_ws/myrobot/build/myrobot

@@ -1,0 +1,82 @@
+[0.009s] Invoking command in '/home/tm/git_ws/myrobot/build/place_nav': AMENT_PREFIX_PATH=/home/tm/git_ws/myrobot/install/myrobot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tm/git_ws/myrobot/install/myrobot_interfaces:/opt/ros/jazzy/opt/gz_launch_vendor:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/tm/git_ws/myrobot/install/myrobot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tm/git_ws/myrobot/install/myrobot_interfaces/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros) /usr/bin/cmake --build /home/tm/git_ws/myrobot/build/place_nav -- -j16 -l16
+[0.071s] [ 50%] [32mBuilding CXX object CMakeFiles/map_creator.dir/src/map_creator.cpp.o[0m
+[0.071s] [ 50%] [32mBuilding CXX object CMakeFiles/place_navigation.dir/src/place_navigation.cpp.o[0m
+[0.071s] [ 50%] [32mBuilding CXX object CMakeFiles/clean_server.dir/src/clean_server.cpp.o[0m
+[2.766s] In file included from [01m[K/home/tm/git_ws/myrobot/src/place_nav/src/map_creator.cpp:1[m[K:
+[2.766s] [01m[K/home/tm/git_ws/myrobot/src/place_nav/include/place_nav/map_creator.hpp:33:17:[m[K [01;35m[Kwarning: [m[Kuse of ‘[01m[Kauto[m[K’ in parameter declaration only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-fconcepts[m[K’
+[2.766s]    33 |     double dist([01;35m[Kauto[m[K& a, auto& b) const;
+[2.766s]       |                 [01;35m[K^~~~[m[K
+[2.766s] [01m[K/home/tm/git_ws/myrobot/src/place_nav/include/place_nav/map_creator.hpp:33:26:[m[K [01;35m[Kwarning: [m[Kuse of ‘[01m[Kauto[m[K’ in parameter declaration only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-fconcepts[m[K’
+[2.767s]    33 |     double dist(auto& a, [01;35m[Kauto[m[K& b) const;
+[2.767s]       |                          [01;35m[K^~~~[m[K
+[2.767s] [01m[K/home/tm/git_ws/myrobot/src/place_nav/include/place_nav/map_creator.hpp:[m[K In constructor ‘[01m[KMapCreator::[01;32m[KMapCreator[m[K()[m[K’:
+[2.767s] [01m[K/home/tm/git_ws/myrobot/src/place_nav/include/place_nav/map_creator.hpp:28:22:[m[K [01;35m[Kwarning: [m[K‘[01m[KMapCreator::robot_map_y[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[2.767s]    28 |     int robot_map_x, [01;35m[Krobot_map_y[m[K;
+[2.767s]       |                      [01;35m[K^~~~~~~~~~~[m[K
+[2.767s] [01m[K/home/tm/git_ws/myrobot/src/place_nav/include/place_nav/map_creator.hpp:27:10:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kbool MapCreator::m_is_get_robot_pose[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[2.767s]    27 |     bool [01;35m[Km_is_get_robot_pose[m[K;
+[2.767s]       |          [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.767s] [01m[K/home/tm/git_ws/myrobot/src/place_nav/src/map_creator.cpp:4:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[2.767s]     4 | [01;35m[KMapCreator[m[K::MapCreator(): Node("map_creator"), robot_map_x(0), robot_map_y(0), m_is_get_robot_pose(false) {
+[2.767s]       | [01;35m[K^~~~~~~~~~[m[K
+[2.780s] [01m[K/home/tm/git_ws/myrobot/src/place_nav/src/map_creator.cpp:[m[K At global scope:
+[2.780s] [01m[K/home/tm/git_ws/myrobot/src/place_nav/src/map_creator.cpp:120:25:[m[K [01;35m[Kwarning: [m[Kuse of ‘[01m[Kauto[m[K’ in parameter declaration only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-fconcepts[m[K’
+[2.780s]   120 | double MapCreator::dist([01;35m[Kauto[m[K &a, auto &b) const {
+[2.780s]       |                         [01;35m[K^~~~[m[K
+[2.780s] [01m[K/home/tm/git_ws/myrobot/src/place_nav/src/map_creator.cpp:120:34:[m[K [01;35m[Kwarning: [m[Kuse of ‘[01m[Kauto[m[K’ in parameter declaration only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-fconcepts[m[K’
+[2.780s]   120 | double MapCreator::dist(auto &a, [01;35m[Kauto[m[K &b) const {
+[2.780s]       |                                  [01;35m[K^~~~[m[K
+[2.780s] [01m[K/home/tm/git_ws/myrobot/src/place_nav/src/map_creator.cpp:[m[K In member function ‘[01m[Kbool MapCreator::[01;32m[Kis_valid[m[K(int, int) const[m[K’:
+[2.780s] [01m[K/home/tm/git_ws/myrobot/src/place_nav/src/map_creator.cpp:129:34:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kconst nav_msgs::msg::MapMetaData_<std::allocator<void> >::_width_type[m[K’ {aka ‘[01m[Kconst unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.780s]   129 |     return x >= 0 && y >= 0 && [01;35m[Kx < m_map.info.width[m[K && y < m_map.info.height;
+[2.780s]       |                                [01;35m[K~~^~~~~~~~~~~~~~~~~~[m[K
+[2.780s] [01m[K/home/tm/git_ws/myrobot/src/place_nav/src/map_creator.cpp:129:58:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kconst nav_msgs::msg::MapMetaData_<std::allocator<void> >::_height_type[m[K’ {aka ‘[01m[Kconst unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.780s]   129 |     return x >= 0 && y >= 0 && x < m_map.info.width && [01;35m[Ky < m_map.info.height[m[K;
+[2.780s]       |                                                        [01;35m[K~~^~~~~~~~~~~~~~~~~~~[m[K
+[3.399s] [01m[K/home/tm/git_ws/myrobot/src/place_nav/src/clean_server.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse CleanServer::[01;32m[Khandle_goal[m[K(const rclcpp_action::GoalUUID&, std::shared_ptr<const myrobot_interfaces::action::CleanRoom_Goal_<std::allocator<void> > >)[m[K’:
+[3.399s] [01m[K/home/tm/git_ws/myrobot/src/place_nav/src/clean_server.cpp:177:136:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.399s]   177 | rclcpp_action::GoalResponse CleanServer::handle_goal(const rclcpp_action::GoalUUID &uuid, [01;35m[Kstd::shared_ptr<const ActionCleanRoom::Goal> goal[m[K)
+[3.399s]       |                                                                                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[3.412s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.412s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+[3.412s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+[3.412s]                  from [01m[K/home/tm/git_ws/myrobot/src/place_nav/include/place_nav/clean_server.hpp:4[m[K,
+[3.412s]                  from [01m[K/home/tm/git_ws/myrobot/src/place_nav/src/clean_server.cpp:1[m[K:
+[3.412s] [01m[K/home/tm/git_ws/myrobot/src/place_nav/src/clean_server.cpp:[m[K In member function ‘[01m[Kvoid CleanServer::[01;32m[Kexecute[m[K(std::shared_ptr<rclcpp_action::ServerGoalHandle<myrobot_interfaces::action::CleanRoom> >)[m[K’:
+[3.412s] [01m[K/home/tm/git_ws/myrobot/src/place_nav/src/clean_server.cpp:224:37:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kstd::__cxx11::list<Rect>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[3.412s]   224 |     RCLCPP_INFO(this->get_logger(), [01;35m[K"Start get gains of %d rects"[m[K, [32m[Km_cleaning_rect.size()[m[K);
+[3.412s]       |                                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.413s]       |                                                                                        [32m[K|[m[K
+[3.413s]       |                                                                                        [32m[Kstd::__cxx11::list<Rect>::size_type {aka long unsigned int}[m[K
+[3.413s] [01m[K/home/tm/git_ws/myrobot/src/place_nav/src/clean_server.cpp:224:58:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[3.413s]   224 |     RCLCPP_INFO(this->get_logger(), "Start get gains of [01;36m[K%d[m[K rects", m_cleaning_rect.size());
+[3.413s]       |                                                         [01;36m[K~^[m[K
+[3.413s]       |                                                          [01;36m[K|[m[K
+[3.413s]       |                                                          [01;36m[Kint[m[K
+[3.413s]       |                                                         [32m[K%ld[m[K
+[3.422s] [01m[K/home/tm/git_ws/myrobot/src/place_nav/src/clean_server.cpp:[m[K In member function ‘[01m[Kvoid CleanServer::[01;32m[KcleanRect[m[K()[m[K’:
+[3.422s] [01m[K/home/tm/git_ws/myrobot/src/place_nav/src/clean_server.cpp:326:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kresolution[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[3.422s]   326 |     double [01;35m[Kresolution[m[K = m_costmap.info.resolution;
+[3.422s]       |            [01;35m[K^~~~~~~~~~[m[K
+[3.422s] [01m[K/home/tm/git_ws/myrobot/src/place_nav/src/clean_server.cpp:[m[K In member function ‘[01m[Kvoid CleanServer::[01;32m[KonNavResult[m[K(const rclcpp_action::ClientGoalHandle<nav2_msgs::action::FollowPath>::WrappedResult&)[m[K’:
+[3.422s] [01m[K/home/tm/git_ws/myrobot/src/place_nav/src/clean_server.cpp:423:16:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KIDLE[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[3.422s]   423 |         switch [01;35m[K([m[Km_robot_state) {
+[3.422s]       |                [01;35m[K^[m[K
+[3.430s] [01m[K/home/tm/git_ws/myrobot/src/place_nav/src/clean_server.cpp:[m[K In member function ‘[01m[Kstd::vector<std::pair<int, int> > CleanServer::[01;32m[Kastar[m[K(std::pair<int, int>, std::pair<int, int>, const OccupancyGrid&)[m[K’:
+[3.430s] [01m[K/home/tm/git_ws/myrobot/src/place_nav/src/clean_server.cpp:496:18:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kheuristic.CleanServer::astar(std::pair<int, int>, std::pair<int, int>, const OccupancyGrid&)::<lambda(int, int)>(start.std::pair<int, int>::first, start.std::pair<int, int>::second)[m[K’ from ‘[01m[Kdouble[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[3.430s]   496 |         [01;35m[Kheuristic(start.first, start.second)[m[K,
+[3.431s]       |         [01;35m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.432s] [01m[K/home/tm/git_ws/myrobot/src/place_nav/src/clean_server.cpp:554:30:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kheuristic.CleanServer::astar(std::pair<int, int>, std::pair<int, int>, const OccupancyGrid&)::<lambda(int, int)>(nx, ny)[m[K’ from ‘[01m[Kdouble[m[K’ to ‘[01m[Kfloat[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[3.432s]   554 |                     [01;35m[Kheuristic(nx, ny)[m[K,
+[3.432s]       |                     [01;35m[K~~~~~~~~~^~~~~~~~[m[K
+[3.489s] [01m[K/home/tm/git_ws/myrobot/src/place_nav/src/place_navigation.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse PlaceNavigation::[01;32m[Khandle_goal[m[K(const rclcpp_action::GoalUUID&, std::shared_ptr<const myrobot_interfaces::action::ComputePlacePose_Goal_<std::allocator<void> > >)[m[K’:
+[3.489s] [01m[K/home/tm/git_ws/myrobot/src/place_nav/src/place_navigation.cpp:190:147:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.489s]   190 | ction::GoalResponse PlaceNavigation::handle_goal(const rclcpp_action::GoalUUID &uuid, [01;35m[Kstd::shared_ptr<const ActionComputePlacePose::Goal> goal[m[K) {
+[3.489s]       |                                                                                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[3.489s] 
+[9.200s] [ 66%] [32m[1mLinking CXX executable map_creator[0m
+[9.960s] [ 66%] Built target map_creator
+[11.406s] [ 83%] [32m[1mLinking CXX executable clean_server[0m
+[12.356s] [ 83%] Built target clean_server
+[13.290s] [100%] [32m[1mLinking CXX executable place_navigation[0m
+[14.230s] [100%] Built target place_navigation

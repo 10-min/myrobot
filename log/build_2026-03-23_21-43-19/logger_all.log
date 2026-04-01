@@ -1,0 +1,349 @@
+[0.079s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.079s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7781573dcfe0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7781573dcdd0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7781573dcdd0>>, mixin_verb=('build',))
+[0.105s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.105s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.105s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.105s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.105s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.105s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.105s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/tm/git_ws/myrobot'
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.105s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.122s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_odom_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_odom_pkg) by extension 'ignore'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_odom_pkg) by extension 'ignore_ament_install'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_odom_pkg) by extensions ['colcon_pkg']
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_odom_pkg) by extension 'colcon_pkg'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_odom_pkg) by extensions ['colcon_meta']
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_odom_pkg) by extension 'colcon_meta'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_odom_pkg) by extensions ['ros']
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_odom_pkg) by extension 'ros'
+[0.124s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_odom_pkg' with type 'ros.ament_python' and name 'my_odom_pkg'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/myrobot) by extensions ['ignore', 'ignore_ament_install']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/myrobot) by extension 'ignore'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/myrobot) by extension 'ignore_ament_install'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/myrobot) by extensions ['colcon_pkg']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/myrobot) by extension 'colcon_pkg'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/myrobot) by extensions ['colcon_meta']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/myrobot) by extension 'colcon_meta'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/myrobot) by extensions ['ros']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/myrobot) by extension 'ros'
+[0.125s] DEBUG:colcon.colcon_core.package_identification:Package 'src/myrobot' with type 'ros.ament_cmake' and name 'myrobot'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/myrobot_behavior_tree) by extensions ['ignore', 'ignore_ament_install']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/myrobot_behavior_tree) by extension 'ignore'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/myrobot_behavior_tree) by extension 'ignore_ament_install'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/myrobot_behavior_tree) by extensions ['colcon_pkg']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/myrobot_behavior_tree) by extension 'colcon_pkg'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/myrobot_behavior_tree) by extensions ['colcon_meta']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/myrobot_behavior_tree) by extension 'colcon_meta'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/myrobot_behavior_tree) by extensions ['ros']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/myrobot_behavior_tree) by extension 'ros'
+[0.125s] DEBUG:colcon.colcon_core.package_identification:Package 'src/myrobot_behavior_tree' with type 'ros.ament_cmake' and name 'myrobot_behavior_tree'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/myrobot_cartographer) by extensions ['ignore', 'ignore_ament_install']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/myrobot_cartographer) by extension 'ignore'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/myrobot_cartographer) by extension 'ignore_ament_install'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/myrobot_cartographer) by extensions ['colcon_pkg']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/myrobot_cartographer) by extension 'colcon_pkg'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/myrobot_cartographer) by extensions ['colcon_meta']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/myrobot_cartographer) by extension 'colcon_meta'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/myrobot_cartographer) by extensions ['ros']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/myrobot_cartographer) by extension 'ros'
+[0.126s] DEBUG:colcon.colcon_core.package_identification:Package 'src/myrobot_cartographer' with type 'ros.ament_cmake' and name 'myrobot_cartographer'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/myrobot_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/myrobot_interfaces) by extension 'ignore'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/myrobot_interfaces) by extension 'ignore_ament_install'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/myrobot_interfaces) by extensions ['colcon_pkg']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/myrobot_interfaces) by extension 'colcon_pkg'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/myrobot_interfaces) by extensions ['colcon_meta']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/myrobot_interfaces) by extension 'colcon_meta'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/myrobot_interfaces) by extensions ['ros']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/myrobot_interfaces) by extension 'ros'
+[0.126s] DEBUG:colcon.colcon_core.package_identification:Package 'src/myrobot_interfaces' with type 'ros.ament_cmake' and name 'myrobot_interfaces'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/myrobot_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/myrobot_navigation) by extension 'ignore'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/myrobot_navigation) by extension 'ignore_ament_install'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/myrobot_navigation) by extensions ['colcon_pkg']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/myrobot_navigation) by extension 'colcon_pkg'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/myrobot_navigation) by extensions ['colcon_meta']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/myrobot_navigation) by extension 'colcon_meta'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/myrobot_navigation) by extensions ['ros']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/myrobot_navigation) by extension 'ros'
+[0.127s] DEBUG:colcon.colcon_core.package_identification:Package 'src/myrobot_navigation' with type 'ros.ament_cmake' and name 'myrobot_navigation'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/place_nav) by extensions ['ignore', 'ignore_ament_install']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/place_nav) by extension 'ignore'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/place_nav) by extension 'ignore_ament_install'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/place_nav) by extensions ['colcon_pkg']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/place_nav) by extension 'colcon_pkg'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/place_nav) by extensions ['colcon_meta']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/place_nav) by extension 'colcon_meta'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/place_nav) by extensions ['ros']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/place_nav) by extension 'ros'
+[0.127s] DEBUG:colcon.colcon_core.package_identification:Package 'src/place_nav' with type 'ros.ament_cmake' and name 'place_nav'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/user_gui) by extensions ['ignore', 'ignore_ament_install']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/user_gui) by extension 'ignore'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/user_gui) by extension 'ignore_ament_install'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/user_gui) by extensions ['colcon_pkg']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/user_gui) by extension 'colcon_pkg'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/user_gui) by extensions ['colcon_meta']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/user_gui) by extension 'colcon_meta'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/user_gui) by extensions ['ros']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/user_gui) by extension 'ros'
+[0.127s] DEBUG:colcon.colcon_core.package_identification:Package 'src/user_gui' with type 'ros.ament_cmake' and name 'user_gui'
+[0.127s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.127s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.127s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.127s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.127s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.139s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.139s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.142s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 454 installed packages in /opt/ros/jazzy
+[0.143s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'my_odom_pkg' build argument 'cmake_args' from command line to 'None'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'my_odom_pkg' build argument 'cmake_target' from command line to 'None'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'my_odom_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'my_odom_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'my_odom_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'my_odom_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'my_odom_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'my_odom_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'my_odom_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.179s] DEBUG:colcon.colcon_core.verb:Building package 'my_odom_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tm/git_ws/myrobot/build/my_odom_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tm/git_ws/myrobot/install/my_odom_pkg', 'merge_install': False, 'path': '/home/tm/git_ws/myrobot/src/my_odom_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'myrobot' build argument 'cmake_args' from command line to 'None'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'myrobot' build argument 'cmake_target' from command line to 'None'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'myrobot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'myrobot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'myrobot' build argument 'cmake_clean_first' from command line to 'False'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'myrobot' build argument 'cmake_force_configure' from command line to 'False'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'myrobot' build argument 'ament_cmake_args' from command line to 'None'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'myrobot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'myrobot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.179s] DEBUG:colcon.colcon_core.verb:Building package 'myrobot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tm/git_ws/myrobot/build/myrobot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tm/git_ws/myrobot/install/myrobot', 'merge_install': False, 'path': '/home/tm/git_ws/myrobot/src/myrobot', 'symlink_install': False, 'test_result_base': None}
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'myrobot_behavior_tree' build argument 'cmake_args' from command line to 'None'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'myrobot_behavior_tree' build argument 'cmake_target' from command line to 'None'
+[0.179s] Level 5:colcon.colcon_core.verb:set package 'myrobot_behavior_tree' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'myrobot_behavior_tree' build argument 'cmake_clean_cache' from command line to 'False'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'myrobot_behavior_tree' build argument 'cmake_clean_first' from command line to 'False'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'myrobot_behavior_tree' build argument 'cmake_force_configure' from command line to 'False'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'myrobot_behavior_tree' build argument 'ament_cmake_args' from command line to 'None'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'myrobot_behavior_tree' build argument 'catkin_cmake_args' from command line to 'None'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'myrobot_behavior_tree' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.180s] DEBUG:colcon.colcon_core.verb:Building package 'myrobot_behavior_tree' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tm/git_ws/myrobot/build/myrobot_behavior_tree', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tm/git_ws/myrobot/install/myrobot_behavior_tree', 'merge_install': False, 'path': '/home/tm/git_ws/myrobot/src/myrobot_behavior_tree', 'symlink_install': False, 'test_result_base': None}
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'myrobot_cartographer' build argument 'cmake_args' from command line to 'None'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'myrobot_cartographer' build argument 'cmake_target' from command line to 'None'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'myrobot_cartographer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'myrobot_cartographer' build argument 'cmake_clean_cache' from command line to 'False'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'myrobot_cartographer' build argument 'cmake_clean_first' from command line to 'False'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'myrobot_cartographer' build argument 'cmake_force_configure' from command line to 'False'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'myrobot_cartographer' build argument 'ament_cmake_args' from command line to 'None'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'myrobot_cartographer' build argument 'catkin_cmake_args' from command line to 'None'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'myrobot_cartographer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.180s] DEBUG:colcon.colcon_core.verb:Building package 'myrobot_cartographer' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tm/git_ws/myrobot/build/myrobot_cartographer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tm/git_ws/myrobot/install/myrobot_cartographer', 'merge_install': False, 'path': '/home/tm/git_ws/myrobot/src/myrobot_cartographer', 'symlink_install': False, 'test_result_base': None}
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'myrobot_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'myrobot_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'myrobot_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'myrobot_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'myrobot_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'myrobot_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'myrobot_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'myrobot_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'myrobot_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.180s] DEBUG:colcon.colcon_core.verb:Building package 'myrobot_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tm/git_ws/myrobot/build/myrobot_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tm/git_ws/myrobot/install/myrobot_interfaces', 'merge_install': False, 'path': '/home/tm/git_ws/myrobot/src/myrobot_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'myrobot_navigation' build argument 'cmake_args' from command line to 'None'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'myrobot_navigation' build argument 'cmake_target' from command line to 'None'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'myrobot_navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'myrobot_navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'myrobot_navigation' build argument 'cmake_clean_first' from command line to 'False'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'myrobot_navigation' build argument 'cmake_force_configure' from command line to 'False'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'myrobot_navigation' build argument 'ament_cmake_args' from command line to 'None'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'myrobot_navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'myrobot_navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.180s] DEBUG:colcon.colcon_core.verb:Building package 'myrobot_navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tm/git_ws/myrobot/build/myrobot_navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tm/git_ws/myrobot/install/myrobot_navigation', 'merge_install': False, 'path': '/home/tm/git_ws/myrobot/src/myrobot_navigation', 'symlink_install': False, 'test_result_base': None}
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'user_gui' build argument 'cmake_args' from command line to 'None'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'user_gui' build argument 'cmake_target' from command line to 'None'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'user_gui' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'user_gui' build argument 'cmake_clean_cache' from command line to 'False'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'user_gui' build argument 'cmake_clean_first' from command line to 'False'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'user_gui' build argument 'cmake_force_configure' from command line to 'False'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'user_gui' build argument 'ament_cmake_args' from command line to 'None'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'user_gui' build argument 'catkin_cmake_args' from command line to 'None'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'user_gui' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.180s] DEBUG:colcon.colcon_core.verb:Building package 'user_gui' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tm/git_ws/myrobot/build/user_gui', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tm/git_ws/myrobot/install/user_gui', 'merge_install': False, 'path': '/home/tm/git_ws/myrobot/src/user_gui', 'symlink_install': False, 'test_result_base': None}
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'place_nav' build argument 'cmake_args' from command line to 'None'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'place_nav' build argument 'cmake_target' from command line to 'None'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'place_nav' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'place_nav' build argument 'cmake_clean_cache' from command line to 'False'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'place_nav' build argument 'cmake_clean_first' from command line to 'False'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'place_nav' build argument 'cmake_force_configure' from command line to 'False'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'place_nav' build argument 'ament_cmake_args' from command line to 'None'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'place_nav' build argument 'catkin_cmake_args' from command line to 'None'
+[0.180s] Level 5:colcon.colcon_core.verb:set package 'place_nav' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.181s] DEBUG:colcon.colcon_core.verb:Building package 'place_nav' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tm/git_ws/myrobot/build/place_nav', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tm/git_ws/myrobot/install/place_nav', 'merge_install': False, 'path': '/home/tm/git_ws/myrobot/src/place_nav', 'symlink_install': False, 'test_result_base': None}
+[0.181s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.181s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.181s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tm/git_ws/myrobot/src/myrobot_interfaces' with build type 'ament_cmake'
+[0.182s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tm/git_ws/myrobot/src/myrobot_interfaces'
+[0.183s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.183s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.183s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.185s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/tm/git_ws/myrobot/src/my_odom_pkg' with build type 'ament_python'
+[0.186s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_odom_pkg', 'ament_prefix_path')
+[0.186s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tm/git_ws/myrobot/install/my_odom_pkg/share/my_odom_pkg/hook/ament_prefix_path.ps1'
+[0.186s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tm/git_ws/myrobot/install/my_odom_pkg/share/my_odom_pkg/hook/ament_prefix_path.dsv'
+[0.186s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tm/git_ws/myrobot/install/my_odom_pkg/share/my_odom_pkg/hook/ament_prefix_path.sh'
+[0.187s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.187s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.189s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tm/git_ws/myrobot/src/myrobot' with build type 'ament_cmake'
+[0.189s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tm/git_ws/myrobot/src/myrobot'
+[0.189s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.189s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.192s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tm/git_ws/myrobot/src/myrobot_behavior_tree' with build type 'ament_cmake'
+[0.192s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tm/git_ws/myrobot/src/myrobot_behavior_tree'
+[0.192s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.192s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.194s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tm/git_ws/myrobot/src/myrobot_cartographer' with build type 'ament_cmake'
+[0.194s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tm/git_ws/myrobot/src/myrobot_cartographer'
+[0.194s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.194s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.197s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tm/git_ws/myrobot/src/myrobot_navigation' with build type 'ament_cmake'
+[0.197s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tm/git_ws/myrobot/src/myrobot_navigation'
+[0.198s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.198s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.200s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tm/git_ws/myrobot/src/user_gui' with build type 'ament_cmake'
+[0.200s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tm/git_ws/myrobot/src/user_gui'
+[0.200s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.200s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.205s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tm/git_ws/myrobot/build/myrobot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(ros) /usr/bin/cmake /home/tm/git_ws/myrobot/src/myrobot_interfaces -DCMAKE_INSTALL_PREFIX=/home/tm/git_ws/myrobot/install/myrobot_interfaces
+[0.356s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/tm/git_ws/myrobot/src/my_odom_pkg'
+[0.356s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.356s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.360s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tm/git_ws/myrobot/build/myrobot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(ros) /usr/bin/cmake /home/tm/git_ws/myrobot/src/myrobot -DCMAKE_INSTALL_PREFIX=/home/tm/git_ws/myrobot/install/myrobot
+[0.361s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tm/git_ws/myrobot/build/myrobot_behavior_tree': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(ros) /usr/bin/cmake /home/tm/git_ws/myrobot/src/myrobot_behavior_tree -DCMAKE_INSTALL_PREFIX=/home/tm/git_ws/myrobot/install/myrobot_behavior_tree
+[0.362s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tm/git_ws/myrobot/build/myrobot_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(ros) /usr/bin/cmake /home/tm/git_ws/myrobot/src/myrobot_cartographer -DCMAKE_INSTALL_PREFIX=/home/tm/git_ws/myrobot/install/myrobot_cartographer
+[0.363s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tm/git_ws/myrobot/build/myrobot_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(ros) /usr/bin/cmake /home/tm/git_ws/myrobot/src/myrobot_navigation -DCMAKE_INSTALL_PREFIX=/home/tm/git_ws/myrobot/install/myrobot_navigation
+[0.367s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tm/git_ws/myrobot/build/user_gui': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(ros) /usr/bin/cmake /home/tm/git_ws/myrobot/src/user_gui -DCMAKE_INSTALL_PREFIX=/home/tm/git_ws/myrobot/install/user_gui
+[0.916s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tm/git_ws/myrobot/src/my_odom_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/tm/git_ws/myrobot/build/my_odom_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tm/git_ws/myrobot/install/my_odom_pkg/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_odom_pkg build --build-base /home/tm/git_ws/myrobot/build/my_odom_pkg/build install --record /home/tm/git_ws/myrobot/build/my_odom_pkg/install.log --single-version-externally-managed install_data
+[0.974s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tm/git_ws/myrobot/build/myrobot_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(ros) /usr/bin/cmake /home/tm/git_ws/myrobot/src/myrobot_cartographer -DCMAKE_INSTALL_PREFIX=/home/tm/git_ws/myrobot/install/myrobot_cartographer
+[0.975s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tm/git_ws/myrobot/build/myrobot_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(ros) /usr/bin/cmake --build /home/tm/git_ws/myrobot/build/myrobot_cartographer -- -j16 -l16
+[1.015s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tm/git_ws/myrobot/build/myrobot_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(ros) /usr/bin/cmake --build /home/tm/git_ws/myrobot/build/myrobot_cartographer -- -j16 -l16
+[1.025s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tm/git_ws/myrobot/build/myrobot_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(ros) /usr/bin/cmake --install /home/tm/git_ws/myrobot/build/myrobot_cartographer
+[1.037s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(myrobot_cartographer)
+[1.038s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tm/git_ws/myrobot/build/myrobot_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(ros) /usr/bin/cmake --install /home/tm/git_ws/myrobot/build/myrobot_cartographer
+[1.039s] Level 1:colcon.colcon_core.environment:checking '/home/tm/git_ws/myrobot/install/myrobot_cartographer' for CMake module files
+[1.040s] Level 1:colcon.colcon_core.environment:checking '/home/tm/git_ws/myrobot/install/myrobot_cartographer' for CMake config files
+[1.040s] Level 1:colcon.colcon_core.shell:create_environment_hook('myrobot_cartographer', 'cmake_prefix_path')
+[1.040s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tm/git_ws/myrobot/install/myrobot_cartographer/share/myrobot_cartographer/hook/cmake_prefix_path.ps1'
+[1.041s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tm/git_ws/myrobot/install/myrobot_cartographer/share/myrobot_cartographer/hook/cmake_prefix_path.dsv'
+[1.041s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tm/git_ws/myrobot/install/myrobot_cartographer/share/myrobot_cartographer/hook/cmake_prefix_path.sh'
+[1.041s] Level 1:colcon.colcon_core.environment:checking '/home/tm/git_ws/myrobot/install/myrobot_cartographer/bin'
+[1.041s] Level 1:colcon.colcon_core.environment:checking '/home/tm/git_ws/myrobot/install/myrobot_cartographer/lib/pkgconfig/myrobot_cartographer.pc'
+[1.042s] Level 1:colcon.colcon_core.environment:checking '/home/tm/git_ws/myrobot/install/myrobot_cartographer/lib/python3.12/site-packages'
+[1.042s] Level 1:colcon.colcon_core.environment:checking '/home/tm/git_ws/myrobot/install/myrobot_cartographer/bin'
+[1.042s] INFO:colcon.colcon_core.shell:Creating package script '/home/tm/git_ws/myrobot/install/myrobot_cartographer/share/myrobot_cartographer/package.ps1'
+[1.042s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tm/git_ws/myrobot/install/myrobot_cartographer/share/myrobot_cartographer/package.dsv'
+[1.043s] INFO:colcon.colcon_core.shell:Creating package script '/home/tm/git_ws/myrobot/install/myrobot_cartographer/share/myrobot_cartographer/package.sh'
+[1.043s] INFO:colcon.colcon_core.shell:Creating package script '/home/tm/git_ws/myrobot/install/myrobot_cartographer/share/myrobot_cartographer/package.bash'
+[1.044s] INFO:colcon.colcon_core.shell:Creating package script '/home/tm/git_ws/myrobot/install/myrobot_cartographer/share/myrobot_cartographer/package.zsh'
+[1.044s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tm/git_ws/myrobot/install/myrobot_cartographer/share/colcon-core/packages/myrobot_cartographer)
+[1.045s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(myrobot_cartographer)
+[1.045s] Level 1:colcon.colcon_core.environment:checking '/home/tm/git_ws/myrobot/install/myrobot_cartographer' for CMake module files
+[1.045s] Level 1:colcon.colcon_core.environment:checking '/home/tm/git_ws/myrobot/install/myrobot_cartographer' for CMake config files
+[1.046s] Level 1:colcon.colcon_core.shell:create_environment_hook('myrobot_cartographer', 'cmake_prefix_path')
+[1.046s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tm/git_ws/myrobot/install/myrobot_cartographer/share/myrobot_cartographer/hook/cmake_prefix_path.ps1'
+[1.046s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tm/git_ws/myrobot/install/myrobot_cartographer/share/myrobot_cartographer/hook/cmake_prefix_path.dsv'
+[1.046s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tm/git_ws/myrobot/install/myrobot_cartographer/share/myrobot_cartographer/hook/cmake_prefix_path.sh'
+[1.046s] Level 1:colcon.colcon_core.environment:checking '/home/tm/git_ws/myrobot/install/myrobot_cartographer/bin'
+[1.047s] Level 1:colcon.colcon_core.environment:checking '/home/tm/git_ws/myrobot/install/myrobot_cartographer/lib/pkgconfig/myrobot_cartographer.pc'
+[1.047s] Level 1:colcon.colcon_core.environment:checking '/home/tm/git_ws/myrobot/install/myrobot_cartographer/lib/python3.12/site-packages'
+[1.047s] Level 1:colcon.colcon_core.environment:checking '/home/tm/git_ws/myrobot/install/myrobot_cartographer/bin'
+[1.047s] INFO:colcon.colcon_core.shell:Creating package script '/home/tm/git_ws/myrobot/install/myrobot_cartographer/share/myrobot_cartographer/package.ps1'
+[1.047s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tm/git_ws/myrobot/install/myrobot_cartographer/share/myrobot_cartographer/package.dsv'
+[1.048s] INFO:colcon.colcon_core.shell:Creating package script '/home/tm/git_ws/myrobot/install/myrobot_cartographer/share/myrobot_cartographer/package.sh'
+[1.048s] INFO:colcon.colcon_core.shell:Creating package script '/home/tm/git_ws/myrobot/install/myrobot_cartographer/share/myrobot_cartographer/package.bash'
+[1.048s] INFO:colcon.colcon_core.shell:Creating package script '/home/tm/git_ws/myrobot/install/myrobot_cartographer/share/myrobot_cartographer/package.zsh'
+[1.048s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tm/git_ws/myrobot/install/myrobot_cartographer/share/colcon-core/packages/myrobot_cartographer)
+[1.406s] Level 1:colcon.colcon_core.environment:checking '/home/tm/git_ws/myrobot/install/my_odom_pkg' for CMake module files
+[1.406s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tm/git_ws/myrobot/src/my_odom_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/tm/git_ws/myrobot/build/my_odom_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tm/git_ws/myrobot/install/my_odom_pkg/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_odom_pkg build --build-base /home/tm/git_ws/myrobot/build/my_odom_pkg/build install --record /home/tm/git_ws/myrobot/build/my_odom_pkg/install.log --single-version-externally-managed install_data
+[1.407s] Level 1:colcon.colcon_core.environment:checking '/home/tm/git_ws/myrobot/install/my_odom_pkg' for CMake config files
+[1.407s] Level 1:colcon.colcon_core.environment:checking '/home/tm/git_ws/myrobot/install/my_odom_pkg/lib'
+[1.407s] Level 1:colcon.colcon_core.environment:checking '/home/tm/git_ws/myrobot/install/my_odom_pkg/bin'
+[1.407s] Level 1:colcon.colcon_core.environment:checking '/home/tm/git_ws/myrobot/install/my_odom_pkg/lib/pkgconfig/my_odom_pkg.pc'
+[1.408s] Level 1:colcon.colcon_core.environment:checking '/home/tm/git_ws/myrobot/install/my_odom_pkg/lib/python3.12/site-packages'
+[1.408s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_odom_pkg', 'pythonpath')
+[1.408s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tm/git_ws/myrobot/install/my_odom_pkg/share/my_odom_pkg/hook/pythonpath.ps1'
+[1.408s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tm/git_ws/myrobot/install/my_odom_pkg/share/my_odom_pkg/hook/pythonpath.dsv'
+[1.409s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tm/git_ws/myrobot/install/my_odom_pkg/share/my_odom_pkg/hook/pythonpath.sh'
+[1.409s] Level 1:colcon.colcon_core.environment:checking '/home/tm/git_ws/myrobot/install/my_odom_pkg/bin'
+[1.409s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_odom_pkg)
+[1.409s] INFO:colcon.colcon_core.shell:Creating package script '/home/tm/git_ws/myrobot/install/my_odom_pkg/share/my_odom_pkg/package.ps1'
+[1.409s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tm/git_ws/myrobot/install/my_odom_pkg/share/my_odom_pkg/package.dsv'
+[1.410s] INFO:colcon.colcon_core.shell:Creating package script '/home/tm/git_ws/myrobot/install/my_odom_pkg/share/my_odom_pkg/package.sh'
+[1.410s] INFO:colcon.colcon_core.shell:Creating package script '/home/tm/git_ws/myrobot/install/my_odom_pkg/share/my_odom_pkg/package.bash'
+[1.410s] INFO:colcon.colcon_core.shell:Creating package script '/home/tm/git_ws/myrobot/install/my_odom_pkg/share/my_odom_pkg/package.zsh'
+[1.410s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tm/git_ws/myrobot/install/my_odom_pkg/share/colcon-core/packages/my_odom_pkg)
+[1.469s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tm/git_ws/myrobot/build/user_gui' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(ros) /usr/bin/cmake /home/tm/git_ws/myrobot/src/user_gui -DCMAKE_INSTALL_PREFIX=/home/tm/git_ws/myrobot/install/user_gui
+[1.480s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(user_gui)
+[1.480s] Level 1:colcon.colcon_core.environment:checking '/home/tm/git_ws/myrobot/install/user_gui' for CMake module files
+[1.480s] Level 1:colcon.colcon_core.environment:checking '/home/tm/git_ws/myrobot/install/user_gui' for CMake config files
+[1.481s] Level 1:colcon.colcon_core.environment:checking '/home/tm/git_ws/myrobot/install/user_gui/bin'
+[1.481s] Level 1:colcon.colcon_core.environment:checking '/home/tm/git_ws/myrobot/install/user_gui/lib/pkgconfig/user_gui.pc'
+[1.481s] Level 1:colcon.colcon_core.environment:checking '/home/tm/git_ws/myrobot/install/user_gui/lib/python3.12/site-packages'
+[1.481s] Level 1:colcon.colcon_core.environment:checking '/home/tm/git_ws/myrobot/install/user_gui/bin'
+[1.481s] INFO:colcon.colcon_core.shell:Creating package script '/home/tm/git_ws/myrobot/install/user_gui/share/user_gui/package.ps1'
+[1.482s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tm/git_ws/myrobot/install/user_gui/share/user_gui/package.dsv'
+[1.482s] INFO:colcon.colcon_core.shell:Creating package script '/home/tm/git_ws/myrobot/install/user_gui/share/user_gui/package.sh'
+[1.482s] INFO:colcon.colcon_core.shell:Creating package script '/home/tm/git_ws/myrobot/install/user_gui/share/user_gui/package.bash'
+[1.482s] INFO:colcon.colcon_core.shell:Creating package script '/home/tm/git_ws/myrobot/install/user_gui/share/user_gui/package.zsh'
+[1.482s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tm/git_ws/myrobot/install/user_gui/share/colcon-core/packages/user_gui)
+[2.738s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.738s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.738s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[2.738s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.743s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.743s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.743s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.760s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.760s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tm/git_ws/myrobot/install/local_setup.ps1'
+[2.760s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tm/git_ws/myrobot/install/_local_setup_util_ps1.py'
+[2.761s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tm/git_ws/myrobot/install/setup.ps1'
+[2.762s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tm/git_ws/myrobot/install/local_setup.sh'
+[2.762s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tm/git_ws/myrobot/install/_local_setup_util_sh.py'
+[2.762s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tm/git_ws/myrobot/install/setup.sh'
+[2.763s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tm/git_ws/myrobot/install/local_setup.bash'
+[2.763s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tm/git_ws/myrobot/install/setup.bash'
+[2.763s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tm/git_ws/myrobot/install/local_setup.zsh'
+[2.764s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tm/git_ws/myrobot/install/setup.zsh'

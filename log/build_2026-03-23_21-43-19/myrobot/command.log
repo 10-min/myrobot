@@ -1,0 +1,1 @@
+Invoking command in '/home/tm/git_ws/myrobot/build/myrobot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(ros) /usr/bin/cmake /home/tm/git_ws/myrobot/src/myrobot -DCMAKE_INSTALL_PREFIX=/home/tm/git_ws/myrobot/install/myrobot

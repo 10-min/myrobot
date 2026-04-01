@@ -1,0 +1,28 @@
+[0.264s] Invoking command in '/home/tm/git_ws/myrobot/build/myrobot_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tm/git_ws/myrobot/install/my_odom_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(ros) /usr/bin/cmake --build /home/tm/git_ws/myrobot/build/myrobot_cartographer -- -j16 -l16
+[0.310s] Invoked command in '/home/tm/git_ws/myrobot/build/myrobot_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tm/git_ws/myrobot/install/my_odom_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(ros) /usr/bin/cmake --build /home/tm/git_ws/myrobot/build/myrobot_cartographer -- -j16 -l16
+[0.323s] Invoking command in '/home/tm/git_ws/myrobot/build/myrobot_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tm/git_ws/myrobot/install/my_odom_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(ros) /usr/bin/cmake --install /home/tm/git_ws/myrobot/build/myrobot_cartographer
+[0.333s] -- Install configuration: ""
+[0.333s] -- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot_cartographer/share/myrobot_cartographer//launch
+[0.333s] -- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot_cartographer/share/myrobot_cartographer//launch/cartographer.launch.py
+[0.333s] -- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot_cartographer/share/myrobot_cartographer//launch/map_view.launch.py
+[0.333s] -- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot_cartographer/share/myrobot_cartographer//launch/occupancy_grid.launch.py
+[0.334s] -- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot_cartographer/share/myrobot_cartographer//rviz
+[0.334s] -- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot_cartographer/share/myrobot_cartographer//rviz/myrobot_cartographer.rviz
+[0.334s] -- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot_cartographer/share/myrobot_cartographer//config
+[0.334s] -- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot_cartographer/share/myrobot_cartographer//config/myrobot_lds_2d.lua
+[0.334s] -- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot_cartographer/share/ament_index/resource_index/package_run_dependencies/myrobot_cartographer
+[0.334s] -- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot_cartographer/share/ament_index/resource_index/parent_prefix_path/myrobot_cartographer
+[0.334s] -- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot_cartographer/share/myrobot_cartographer/environment/ament_prefix_path.sh
+[0.334s] -- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot_cartographer/share/myrobot_cartographer/environment/ament_prefix_path.dsv
+[0.334s] -- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot_cartographer/share/myrobot_cartographer/environment/path.sh
+[0.334s] -- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot_cartographer/share/myrobot_cartographer/environment/path.dsv
+[0.334s] -- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot_cartographer/share/myrobot_cartographer/local_setup.bash
+[0.334s] -- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot_cartographer/share/myrobot_cartographer/local_setup.sh
+[0.334s] -- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot_cartographer/share/myrobot_cartographer/local_setup.zsh
+[0.334s] -- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot_cartographer/share/myrobot_cartographer/local_setup.dsv
+[0.335s] -- Installing: /home/tm/git_ws/myrobot/install/myrobot_cartographer/share/myrobot_cartographer/package.dsv
+[0.335s] -- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot_cartographer/share/ament_index/resource_index/packages/myrobot_cartographer
+[0.335s] -- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot_cartographer/share/myrobot_cartographer/cmake/myrobot_cartographerConfig.cmake
+[0.335s] -- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot_cartographer/share/myrobot_cartographer/cmake/myrobot_cartographerConfig-version.cmake
+[0.335s] -- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot_cartographer/share/myrobot_cartographer/package.xml
+[0.342s] Invoked command in '/home/tm/git_ws/myrobot/build/myrobot_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tm/git_ws/myrobot/install/my_odom_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(ros) /usr/bin/cmake --install /home/tm/git_ws/myrobot/build/myrobot_cartographer

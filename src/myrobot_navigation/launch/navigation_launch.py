@@ -32,7 +32,7 @@ def generate_launch_description():
     bt_xml_path = os.path.join(
         get_package_share_directory('myrobot_behavior_tree'),
         'behavior_trees',
-        'custom_navigate_to_pose.xml'
+        'cleaning_navigate_to_pose.xml'
     )
 
     namespace = LaunchConfiguration('namespace')
@@ -67,7 +67,10 @@ def generate_launch_description():
     remappings = [('/tf', 'tf'), ('/tf_static', 'tf_static')]
 
     # Create our own temporary YAML files that include substitutions
-    param_substitutions = {'autostart': autostart, 'default_nav_to_pose_bt_xml': bt_xml_path}
+    param_substitutions = {
+        'autostart': autostart, 
+        'default_nav_to_pose_bt_xml': bt_xml_path
+    }
 
     configured_params = ParameterFile(
         RewrittenYaml(

@@ -1,0 +1,53 @@
+-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found nav2_behavior_tree: 1.3.10 (/opt/ros/jazzy/share/nav2_behavior_tree/cmake)
+-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found myrobot_interfaces: 0.0.0 (/home/tm/git_ws/myrobot/install/myrobot_interfaces/share/myrobot_interfaces/cmake)
+-- Found pluginlib: 5.4.4 (/opt/ros/jazzy/share/pluginlib/cmake)
+-- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/tm/git_ws/myrobot/src/myrobot_behavior_tree/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (0.8s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/tm/git_ws/myrobot/build/myrobot_behavior_tree
+[ 50%] [32mBuilding CXX object CMakeFiles/compute_place_pose_action_bt_node.dir/src/compute_place_pose_action.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libcompute_place_pose_action_bt_node.so[0m
+[100%] Built target compute_place_pose_action_bt_node
+-- Install configuration: ""
+-- Installing: /home/tm/git_ws/myrobot/install/myrobot_behavior_tree/share/myrobot_behavior_tree//behavior_trees
+-- Installing: /home/tm/git_ws/myrobot/install/myrobot_behavior_tree/share/myrobot_behavior_tree//behavior_trees/cleaning_navigate_to_pose.xml
+-- Installing: /home/tm/git_ws/myrobot/install/myrobot_behavior_tree/share/myrobot_behavior_tree//behavior_trees/custom_navigate_to_pose.xml
+-- Installing: /home/tm/git_ws/myrobot/install/myrobot_behavior_tree/lib/libcompute_place_pose_action_bt_node.so
+-- Set non-toolchain portion of runtime path of "/home/tm/git_ws/myrobot/install/myrobot_behavior_tree/lib/libcompute_place_pose_action_bt_node.so" to ""
+-- Installing: /home/tm/git_ws/myrobot/install/myrobot_behavior_tree/share/myrobot_behavior_tree/environment/library_path.sh
+-- Installing: /home/tm/git_ws/myrobot/install/myrobot_behavior_tree/share/myrobot_behavior_tree/environment/library_path.dsv
+-- Installing: /home/tm/git_ws/myrobot/install/myrobot_behavior_tree/share/ament_index/resource_index/package_run_dependencies/myrobot_behavior_tree
+-- Installing: /home/tm/git_ws/myrobot/install/myrobot_behavior_tree/share/ament_index/resource_index/parent_prefix_path/myrobot_behavior_tree
+-- Installing: /home/tm/git_ws/myrobot/install/myrobot_behavior_tree/share/myrobot_behavior_tree/environment/ament_prefix_path.sh
+-- Installing: /home/tm/git_ws/myrobot/install/myrobot_behavior_tree/share/myrobot_behavior_tree/environment/ament_prefix_path.dsv
+-- Installing: /home/tm/git_ws/myrobot/install/myrobot_behavior_tree/share/myrobot_behavior_tree/environment/path.sh
+-- Installing: /home/tm/git_ws/myrobot/install/myrobot_behavior_tree/share/myrobot_behavior_tree/environment/path.dsv
+-- Installing: /home/tm/git_ws/myrobot/install/myrobot_behavior_tree/share/myrobot_behavior_tree/local_setup.bash
+-- Installing: /home/tm/git_ws/myrobot/install/myrobot_behavior_tree/share/myrobot_behavior_tree/local_setup.sh
+-- Installing: /home/tm/git_ws/myrobot/install/myrobot_behavior_tree/share/myrobot_behavior_tree/local_setup.zsh
+-- Installing: /home/tm/git_ws/myrobot/install/myrobot_behavior_tree/share/myrobot_behavior_tree/local_setup.dsv
+-- Installing: /home/tm/git_ws/myrobot/install/myrobot_behavior_tree/share/myrobot_behavior_tree/package.dsv
+-- Installing: /home/tm/git_ws/myrobot/install/myrobot_behavior_tree/share/ament_index/resource_index/packages/myrobot_behavior_tree
+-- Installing: /home/tm/git_ws/myrobot/install/myrobot_behavior_tree/share/myrobot_behavior_tree/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/tm/git_ws/myrobot/install/myrobot_behavior_tree/share/myrobot_behavior_tree/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/tm/git_ws/myrobot/install/myrobot_behavior_tree/share/myrobot_behavior_tree/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/tm/git_ws/myrobot/install/myrobot_behavior_tree/share/myrobot_behavior_tree/cmake/myrobot_behavior_treeConfig.cmake
+-- Installing: /home/tm/git_ws/myrobot/install/myrobot_behavior_tree/share/myrobot_behavior_tree/cmake/myrobot_behavior_treeConfig-version.cmake
+-- Installing: /home/tm/git_ws/myrobot/install/myrobot_behavior_tree/share/myrobot_behavior_tree/package.xml

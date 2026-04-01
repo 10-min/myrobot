@@ -13,7 +13,7 @@ import os
 
 def generate_launch_description():
     pkg_share = FindPackageShare(package='myrobot').find('myrobot')
-    default_model_path = os.path.join(pkg_share, 'urdf', 'sam_bot_description.sdf')
+    default_model_path = os.path.join(pkg_share, 'urdf', 'myrobot.sdf')
     default_rviz_config_path = os.path.join(pkg_share, 'rviz', 'config.rviz')
     ros_gz_sim_share = get_package_share_directory('ros_gz_sim')
     gz_spawn_model_launch_source = os.path.join(ros_gz_sim_share, "launch", "gz_spawn_model.launch.py")

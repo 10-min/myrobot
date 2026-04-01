@@ -1,0 +1,21 @@
+[0.654s] Invoking command in '/home/tm/git_ws/myrobot/src/my_odom_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/tm/git_ws/myrobot/build/my_odom_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tm/git_ws/myrobot/install/my_odom_pkg/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_odom_pkg build --build-base /home/tm/git_ws/myrobot/build/my_odom_pkg/build install --record /home/tm/git_ws/myrobot/build/my_odom_pkg/install.log --single-version-externally-managed install_data
+[0.838s] running egg_info
+[0.863s] writing ../../build/my_odom_pkg/my_odom_pkg.egg-info/PKG-INFO
+[0.863s] writing dependency_links to ../../build/my_odom_pkg/my_odom_pkg.egg-info/dependency_links.txt
+[0.863s] writing entry points to ../../build/my_odom_pkg/my_odom_pkg.egg-info/entry_points.txt
+[0.864s] writing requirements to ../../build/my_odom_pkg/my_odom_pkg.egg-info/requires.txt
+[0.864s] writing top-level names to ../../build/my_odom_pkg/my_odom_pkg.egg-info/top_level.txt
+[0.901s] reading manifest file '../../build/my_odom_pkg/my_odom_pkg.egg-info/SOURCES.txt'
+[0.901s] writing manifest file '../../build/my_odom_pkg/my_odom_pkg.egg-info/SOURCES.txt'
+[0.901s] running build
+[0.901s] running build_py
+[0.902s] running install
+[0.905s] running install_lib
+[0.921s] running install_data
+[0.921s] running install_egg_info
+[0.938s] removing '/home/tm/git_ws/myrobot/install/my_odom_pkg/lib/python3.12/site-packages/my_odom_pkg-0.0.0-py3.12.egg-info' (and everything under it)
+[0.938s] Copying ../../build/my_odom_pkg/my_odom_pkg.egg-info to /home/tm/git_ws/myrobot/install/my_odom_pkg/lib/python3.12/site-packages/my_odom_pkg-0.0.0-py3.12.egg-info
+[0.938s] running install_scripts
+[1.041s] Installing odom_echo script to /home/tm/git_ws/myrobot/install/my_odom_pkg/lib/my_odom_pkg
+[1.041s] writing list of installed files to '/home/tm/git_ws/myrobot/build/my_odom_pkg/install.log'
+[1.065s] Invoked command in '/home/tm/git_ws/myrobot/src/my_odom_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/tm/git_ws/myrobot/build/my_odom_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tm/git_ws/myrobot/install/my_odom_pkg/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(ros) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_odom_pkg build --build-base /home/tm/git_ws/myrobot/build/my_odom_pkg/build install --record /home/tm/git_ws/myrobot/build/my_odom_pkg/install.log --single-version-externally-managed install_data
