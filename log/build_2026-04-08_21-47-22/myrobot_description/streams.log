@@ -1,0 +1,45 @@
+[0.203s] Invoking command in '/home/tm/git_ws/myrobot/build/myrobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(ros) /usr/bin/cmake --build /home/tm/git_ws/myrobot/build/myrobot_description -- -j16 -l16
+[0.224s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.369s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.433s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.433s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.434s] -- Added test 'lint_cmake' to check CMake code style
+[0.434s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.435s] -- Added test 'xmllint' to check XML markup files
+[0.436s] -- Configuring done (0.2s)
+[0.438s] -- Generating done (0.0s)
+[0.439s] -- Build files have been written to: /home/tm/git_ws/myrobot/build/myrobot_description
+[0.460s] Invoked command in '/home/tm/git_ws/myrobot/build/myrobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(ros) /usr/bin/cmake --build /home/tm/git_ws/myrobot/build/myrobot_description -- -j16 -l16
+[0.461s] Invoking command in '/home/tm/git_ws/myrobot/build/myrobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(ros) /usr/bin/cmake --install /home/tm/git_ws/myrobot/build/myrobot_description
+[0.469s] -- Install configuration: ""
+[0.469s] -- Installing: /home/tm/git_ws/myrobot/install/myrobot_description/share/myrobot_description/launch
+[0.469s] -- Installing: /home/tm/git_ws/myrobot/install/myrobot_description/share/myrobot_description/launch/display.launch.py
+[0.469s] -- Installing: /home/tm/git_ws/myrobot/install/myrobot_description/share/myrobot_description/urdf
+[0.469s] -- Installing: /home/tm/git_ws/myrobot/install/myrobot_description/share/myrobot_description/urdf/myrobot.sdf
+[0.469s] -- Installing: /home/tm/git_ws/myrobot/install/myrobot_description/share/myrobot_description/rviz
+[0.469s] -- Installing: /home/tm/git_ws/myrobot/install/myrobot_description/share/myrobot_description/rviz/config.rviz
+[0.469s] -- Installing: /home/tm/git_ws/myrobot/install/myrobot_description/share/myrobot_description/worlds
+[0.469s] -- Installing: /home/tm/git_ws/myrobot/install/myrobot_description/share/myrobot_description/worlds/hospital.sdf
+[0.469s] -- Installing: /home/tm/git_ws/myrobot/install/myrobot_description/share/myrobot_description/worlds/test.sdf
+[0.469s] -- Installing: /home/tm/git_ws/myrobot/install/myrobot_description/share/myrobot_description/worlds/meshes
+[0.469s] -- Installing: /home/tm/git_ws/myrobot/install/myrobot_description/share/myrobot_description/worlds/meshes/hospital.dae
+[0.469s] -- Installing: /home/tm/git_ws/myrobot/install/myrobot_description/share/myrobot_description/worlds/meshes/hospital.glb
+[0.469s] -- Installing: /home/tm/git_ws/myrobot/install/myrobot_description/share/myrobot_description/config
+[0.470s] -- Installing: /home/tm/git_ws/myrobot/install/myrobot_description/share/myrobot_description/config/bridge.yaml
+[0.470s] -- Installing: /home/tm/git_ws/myrobot/install/myrobot_description/share/myrobot_description/config/ekf.yaml
+[0.470s] -- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot_description/share/ament_index/resource_index/package_run_dependencies/myrobot_description
+[0.470s] -- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot_description/share/ament_index/resource_index/parent_prefix_path/myrobot_description
+[0.470s] -- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot_description/share/myrobot_description/environment/ament_prefix_path.sh
+[0.470s] -- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot_description/share/myrobot_description/environment/ament_prefix_path.dsv
+[0.470s] -- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot_description/share/myrobot_description/environment/path.sh
+[0.470s] -- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot_description/share/myrobot_description/environment/path.dsv
+[0.470s] -- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot_description/share/myrobot_description/local_setup.bash
+[0.470s] -- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot_description/share/myrobot_description/local_setup.sh
+[0.470s] -- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot_description/share/myrobot_description/local_setup.zsh
+[0.470s] -- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot_description/share/myrobot_description/local_setup.dsv
+[0.470s] -- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot_description/share/myrobot_description/package.dsv
+[0.470s] -- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot_description/share/ament_index/resource_index/packages/myrobot_description
+[0.470s] -- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot_description/share/myrobot_description/cmake/myrobot_descriptionConfig.cmake
+[0.470s] -- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot_description/share/myrobot_description/cmake/myrobot_descriptionConfig-version.cmake
+[0.470s] -- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot_description/share/myrobot_description/package.xml
+[0.478s] Invoked command in '/home/tm/git_ws/myrobot/build/myrobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com VIRTUAL_ENV_PROMPT=(ros) /usr/bin/cmake --install /home/tm/git_ws/myrobot/build/myrobot_description
