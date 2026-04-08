@@ -94,7 +94,7 @@ def generate_launch_description():
     )
 
     declare_slam_cmd = DeclareLaunchArgument(
-        'slam', default_value='False', description='Whether run a SLAM'
+        'slam', default_value='false', description='Whether run a SLAM'
     )
 
     declare_map_yaml_cmd = DeclareLaunchArgument(
@@ -102,7 +102,7 @@ def generate_launch_description():
     )
 
     declare_use_localization_cmd = DeclareLaunchArgument(
-        'use_localization', default_value='True',
+        'use_localization', default_value='true',
         description='Whether to enable localization or not'
     )
 
@@ -126,13 +126,13 @@ def generate_launch_description():
 
     declare_use_composition_cmd = DeclareLaunchArgument(
         'use_composition',
-        default_value='True',
+        default_value='true',
         description='Whether to use composed bringup',
     )
 
     declare_use_respawn_cmd = DeclareLaunchArgument(
         'use_respawn',
-        default_value='False',
+        default_value='false',
         description='Whether to respawn if a node crashes. Applied when composition is disabled.',
     )
 

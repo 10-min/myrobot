@@ -1,0 +1,26 @@
+[100%] Built target compute_place_pose_action_bt_node
+-- Install configuration: ""
+-- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot_behavior_tree/share/myrobot_behavior_tree//behavior_trees
+-- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot_behavior_tree/share/myrobot_behavior_tree//behavior_trees/cleaning_navigate_to_pose.xml
+-- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot_behavior_tree/share/myrobot_behavior_tree//behavior_trees/custom_navigate_to_pose.xml
+-- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot_behavior_tree/lib/libcompute_place_pose_action_bt_node.so
+-- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot_behavior_tree/share/myrobot_behavior_tree/environment/library_path.sh
+-- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot_behavior_tree/share/myrobot_behavior_tree/environment/library_path.dsv
+-- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot_behavior_tree/share/ament_index/resource_index/package_run_dependencies/myrobot_behavior_tree
+-- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot_behavior_tree/share/ament_index/resource_index/parent_prefix_path/myrobot_behavior_tree
+-- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot_behavior_tree/share/myrobot_behavior_tree/environment/ament_prefix_path.sh
+-- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot_behavior_tree/share/myrobot_behavior_tree/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot_behavior_tree/share/myrobot_behavior_tree/environment/path.sh
+-- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot_behavior_tree/share/myrobot_behavior_tree/environment/path.dsv
+-- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot_behavior_tree/share/myrobot_behavior_tree/local_setup.bash
+-- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot_behavior_tree/share/myrobot_behavior_tree/local_setup.sh
+-- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot_behavior_tree/share/myrobot_behavior_tree/local_setup.zsh
+-- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot_behavior_tree/share/myrobot_behavior_tree/local_setup.dsv
+-- Installing: /home/tm/git_ws/myrobot/install/myrobot_behavior_tree/share/myrobot_behavior_tree/package.dsv
+-- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot_behavior_tree/share/ament_index/resource_index/packages/myrobot_behavior_tree
+-- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot_behavior_tree/share/myrobot_behavior_tree/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot_behavior_tree/share/myrobot_behavior_tree/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot_behavior_tree/share/myrobot_behavior_tree/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot_behavior_tree/share/myrobot_behavior_tree/cmake/myrobot_behavior_treeConfig.cmake
+-- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot_behavior_tree/share/myrobot_behavior_tree/cmake/myrobot_behavior_treeConfig-version.cmake
+-- Up-to-date: /home/tm/git_ws/myrobot/install/myrobot_behavior_tree/share/myrobot_behavior_tree/package.xml
