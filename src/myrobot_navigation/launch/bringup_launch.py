@@ -36,7 +36,7 @@ def generate_launch_description():
     # Get the launch directory
     bringup_dir = get_package_share_directory('nav2_bringup')
     launch_dir = os.path.join(bringup_dir, 'launch')
-    myrobot_navigation_dir = get_package_share_directory('myrobot_navigation')
+    pkg_share = get_package_share_directory('myrobot_navigation')
 
     # Create the launch configuration variables
     namespace = LaunchConfiguration('namespace')
@@ -98,7 +98,7 @@ def generate_launch_description():
     )
 
     declare_map_yaml_cmd = DeclareLaunchArgument(
-        'map', default_value=os.path.join(myrobot_navigation_dir, 'map', 'hospital.yaml'), description='Full path to map yaml file to load'
+        'map', default_value=os.path.join(pkg_share, 'map', 'my_home.yaml'), description='Full path to map yaml file to load'
     )
 
     declare_use_localization_cmd = DeclareLaunchArgument(
@@ -114,7 +114,7 @@ def generate_launch_description():
 
     declare_params_file_cmd = DeclareLaunchArgument(
         'params_file',
-        default_value=os.path.join(myrobot_navigation_dir, 'params', 'nav2_params.yaml'),
+        default_value=os.path.join(pkg_share, 'params', 'nav2_params.yaml'),
         description='Full path to the ROS2 parameters file to use for all launched nodes',
     )
 
@@ -185,7 +185,7 @@ def generate_launch_description():
             ),
             IncludeLaunchDescription(
                 PythonLaunchDescriptionSource(
-                    os.path.join(myrobot_navigation_dir, 'launch', 'navigation_launch.py')
+                    os.path.join(pkg_share, 'launch', 'navigation_launch.py')
                 ),
                 launch_arguments={
                     'namespace': namespace,

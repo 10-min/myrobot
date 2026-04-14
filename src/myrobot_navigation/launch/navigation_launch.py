@@ -29,11 +29,6 @@ from nav2_common.launch import RewrittenYaml
 def generate_launch_description():
     # Get the launch directory
     bringup_dir = get_package_share_directory('nav2_bringup')
-    bt_xml_path = os.path.join(
-        get_package_share_directory('myrobot_behavior_tree'),
-        'behavior_trees',
-        'cleaning_navigate_to_pose.xml'
-    )
 
     namespace = LaunchConfiguration('namespace')
     use_sim_time = LaunchConfiguration('use_sim_time')
@@ -55,7 +50,7 @@ def generate_launch_description():
         'collision_monitor',
         'bt_navigator',
         'waypoint_follower',
-        'docking_server',
+        #'docking_server',
     ]
 
     # Map fully qualified names to relative ones so the node's namespace can be prepended.
@@ -67,10 +62,7 @@ def generate_launch_description():
     remappings = [('/tf', 'tf'), ('/tf_static', 'tf_static')]
 
     # Create our own temporary YAML files that include substitutions
-    param_substitutions = {
-        'autostart': autostart, 
-        'default_nav_to_pose_bt_xml': bt_xml_path
-    }
+    param_substitutions = {'autostart': autostart}
 
     configured_params = ParameterFile(
         RewrittenYaml(
@@ -110,7 +102,7 @@ def generate_launch_description():
 
     declare_use_composition_cmd = DeclareLaunchArgument(
         'use_composition',
-        default_value='False',
+        default_value='false',
         description='Use composed bringup if True',
     )
 
@@ -122,7 +114,7 @@ def generate_launch_description():
 
     declare_use_respawn_cmd = DeclareLaunchArgument(
         'use_respawn',
-        default_value='False',
+        default_value='false',
         description='Whether to respawn if a node crashes. Applied when composition is disabled.',
     )
 

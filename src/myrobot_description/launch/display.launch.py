@@ -44,6 +44,7 @@ def generate_launch_description():
         output='screen',
         condition=IfCondition(use_sim_time),
     )
+    
     robot_state_publisher_node = Node(
         package='robot_state_publisher',
         executable='robot_state_publisher',

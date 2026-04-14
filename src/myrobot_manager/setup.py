@@ -29,6 +29,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
+            'myrobot_manager = myrobot_manager.myrobot_manager:main',
         ],
     },
 )
